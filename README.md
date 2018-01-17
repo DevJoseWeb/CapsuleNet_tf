@@ -30,11 +30,13 @@ Locate the MNIST datasets in the './MNIST_data' directory and just run capsNet.i
 The performance measurement was done with a CapsNet with 3 routing iterations and reconstruction.
 
 ## Sample MNIST Test Reconstruction
-<img src="./images/Fig2_reconstrucion.png">
+<img src="./images/Fig3_reconstructions with less trained.png" alt="Reconstructions with less training(1 epoch)">
+<img src="./images/Fig2_reconstrucion.png" alt="Reconstructions with more trained(50 epoch)">
 
 * Sample MNIST test reconstructions of a CapsNet with 3 routing iterations.
 * The images on the first row are the input images, and that on the second row are the reconstructions.
 * We can see that the reconstructions preserves many of the details of the input while smoothing the noise.
+* We can get more detailed reconstruction with more traind model.
 
 ## What the individual dimensions of a capsule represent
 * We can see what the individual dimensions represent by feeding a perturbed version of the activity vector to the decoder network and see how the perturbation affects the reconstruction.
