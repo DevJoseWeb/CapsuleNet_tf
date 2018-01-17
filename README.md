@@ -22,10 +22,10 @@ Locate the MNIST datasets in the './MNIST_data' directory and just run capsNet.i
 ## Accuracy
 * The best error
 
-         %  | Training | Validation |  Test  |
-:-----------|:--------:|:----------:|:-------|
-implemented |  0.0273  |    0.641   | 0.6611 |
-Paper       |     -    |      -     |  0.25  |
+|         %  | Training | Validation |   Test  |
+| ---------- | -------- | ---------- | ------- |
+|Implemented |  0.0273  |    0.641   |  0.6611 |
+|Paper       |     -    |      -     |   0.25  |
 
 The performance measurement was done with a CapsNet with 3 routing iterations and reconstruction.
 
@@ -38,7 +38,7 @@ The performance measurement was done with a CapsNet with 3 routing iterations an
 * We can see what the individual dimensions represent by feeding a perturbed version of the activity vector to the decoder network and see how the perturbation affects the reconstruction.
 * By the experiment, the representations of each dimension can be translated as follows.
 + Localized skew
-<img src="./images/localized_skew.png">
+<img src="./images/localized_skew.png" width="800">
 <img src="./images/localized_skew2.png">
 <br></br>
 
