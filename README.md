@@ -21,13 +21,26 @@ Locate the MNIST datasets in the './MNIST_data' directory and just run capsNet.i
 # Results
 ## Accuracy
 * The best error
-
+ % | Training | Validation | Test |
+:-----|:----:|:----:|:------|
+implemented | 0.0273 | 0.641 | 0.6611 |
+Paper | - | - | 0.25 |
+The performance measurement was done with a CapsNet with 3 routing iterations and reconstruction.
 
 ## Sample MNIST Test Reconstruction
-<img src="./images/Fig2_Reconstruction.png">
+<img src="./images/Fig2_reconstruction.png">
 * The images on the first row are the input images, and that on the second row are the reconstructions.
 * We can see that the reconstructions preserves many of the details of the input while smoothing the noise.
 
 ## What the individual dimensions of a capsule represent
 * We can see what the individual dimensions represent by feeding a perturbed version of the activity vector to the decoder network and see how the perturbation affects the reconstruction.
-* By the experiment, the representations of each dimension are as follows.
+* By the experiment, the representations of each dimension can be translated as follows.
++ Localized skew
+<img src="./images/localized_skew.png">
+<img src="./images/localized_skew2.png">
+<br>
++ Scale of thickness
+<img src="./images/scale_of_thickness.png">
+<br>
++ Width
+<img src="./images/width.png">
