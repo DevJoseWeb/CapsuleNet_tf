@@ -30,10 +30,10 @@ Locate the MNIST datasets in the './MNIST_data' directory and just run capsNet.i
 The performance measurement was done with a CapsNet with 3 routing iterations and reconstruction.
 
 ## Sample MNIST Test Reconstruction
-<img src="./images/Fig3_reconstructions_with_less_trained.png">
+<img align="center" src="./images/Fig3_reconstructions_with_less_trained.png">
 <p align="center" class="caption">Reconstructions with less training(1 epoch)</p>
-
-<img src="./images/Fig2_reconstrucion.png">
+<br></br>
+<img align="center" src="./images/Fig2_reconstrucion.png">
 <p align="center" class="caption">Reconstructions with more trained(50 epoch)</p>
 
 
