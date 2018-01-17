@@ -48,4 +48,4 @@ The performance measurement was done with a CapsNet with 3 routing iterations an
 <img src="./images/scale_of_thickness.png" width="900">
 
 + Width
-<img src="./images/width.png">
+<img src="./images/width.png" width="900">
