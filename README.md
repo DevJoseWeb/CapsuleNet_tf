@@ -18,6 +18,7 @@ and locate them in the './MNIST_data' directory.
 # How to run Training & Testing
 Locate the MNIST datasets in the './MNIST_data' directory and just run capsNet.ipynb
 
+<br></br>
 # Results
 ## Accuracy
 * The best error
@@ -28,6 +29,8 @@ Locate the MNIST datasets in the './MNIST_data' directory and just run capsNet.i
 |Paper       |     -    |      -     |   0.25  |
 
 The performance measurement was done with a CapsNet with 3 routing iterations and reconstruction.
+<br></br>
+
 
 ## Sample MNIST Test Reconstruction
 <img align="center" src="./images/Fig3_reconstructions_with_less_trained.png">
@@ -41,6 +44,8 @@ The performance measurement was done with a CapsNet with 3 routing iterations an
 * The images on the first row are the input images, and that on the second row are the reconstructions.
 * We can see that the reconstructions preserves many of the details of the input while smoothing the noise.
 * We can get more detailed reconstruction with more traind model.
+<br></br>
+
 
 ## What the individual dimensions of a capsule represent
 * We can see what the individual dimensions represent by feeding a perturbed version of the activity vector to the decoder network and see how the perturbation affects the reconstruction.
